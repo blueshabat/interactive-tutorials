@@ -6,11 +6,11 @@ esta sección explica un poco sobre como usar los operadores básicos en Python.
 ### Operadores Aritméticos  
 
 
-Tal como cualquierr otro lenguaje de programacion, los operadores de sumas, restas, multiplicaciones y divisiones pueden ser usadas con números.<br> 
+Tal como cualquier otro lenguaje de programación, los operadores de sumas, restas, multiplicaciones y divisiones pueden ser usadas con números.<br> 
 
     numeros = 1 + 2 * 3 / 4.0
 
-Intenta predecir que la respuesta será. Si python sigue las ordenes de los operadores?
+Intenta predecir la respuesta. ¿Python sigue el orden de los operadores?
 
 Otro operador disponible es el de modulo (%), este regresa el integral remanente de una división. dividendo % divisor = remanente.
 
@@ -33,19 +33,19 @@ Python también soporta multiplicar texto o cadenas para formar una cadena con u
 
 ### Usar Operadores con listas
 
-Listas pueden ser unidas con los operadores de adición:
+Las listas pueden ser unidas con los operadores de adición:
 
     even_numbers = [2,4,6,8]
     odd_numbers = [1,3,5,7]
     all_numbers = odd_numbers + even_numbers
 
-Just as in strings, Python supports forming new lists with a repeating sequence using the multiplication operator:
+Al igual que en las cadenas, Python admite la formación de nuevas listas con una secuencia repetitiva utilizando el operador de multiplicación:
 
     print [1,2,3] * 3
 
 ### Ejercicios
 
-The target of this exercise is to create two lists called x_list and y_list, which contain 10 instances of the variables x and y, respectively. You are also required to create a list called "big_list", which contains the variables "x" and "y", 10 times each, by concatenating the two lists you have created.
+El objetivo de este ejercicio es crear dos listas llamadas lista_x y lista_y, las cuales contienen 10 instancias de las variables "x" y "y", respectivamente. También es necesario crear una lista llamada "lista_grande", que contiene "x" y "y", 10 veces cada una, concatenando las dos listas creadas.
 
 Tutorial Code
 -------------
@@ -53,29 +53,29 @@ Tutorial Code
 x = object()
 y = object()
 
-# change this code
-x_list = [x]
-y_list = [y]
-big_list = []
+# cambia este código
+lista_x = [x]
+lista_y = [y]
+lista_grande = []
 
-print "x_list contains %d objects" % len(x_list)
-print "y_list contains %d objects" % len(y_list)
-print "big_list contains %d objects" % len(big_list)
+print "lista_x contiene %d objetos" % len(lista_x)
+print "lista_y contiene %d objetos" % len(lista_y)
+print "lista_grande contiene %d objetos" % len(lista grande)
 
-# testing code
-if x_list.count(x) == 10 and y_list.count(y) == 10:
-    print "Almost there..."
-if big_list.count(x) == 10 and big_list.count(y) == 10:
-    print "Great!"
+# probando el código
+if lista_x.count(x) == 10 and lista_y.count(y) == 10:
+    print "Cerca..."
+if lista_grande.count(x) == 10 and lista_grande.count(y) == 10:
+    print "¡Buen trabajo!"
 
 Expected Output
 ---------------
 
-x_list contains 10 objects
-y_list contains 10 objects
-big_list contains 20 objects
-Almost there...
-Great!
+lista_x contiene 10 objetos
+lista_y contiene 10 objetos
+lista_grande contiene 20 objetos
+Cerca...
+¡Buen trabajo!
 
 Solution
 --------
